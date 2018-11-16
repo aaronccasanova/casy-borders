@@ -1,0 +1,20 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+
+.selection-hover {
+  border: 2px solid red !important;
+  /* !imp to always know what container your hovering over */
+}
+
+.selection-hover>* {
+  border: 2px solid purple;
+}
+
+.important-selection {
+  border: 2px solid #0077ff;
+}
+
+.important-selection>* {
+  border: 2px solid limegreen;
+}
